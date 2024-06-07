@@ -1,0 +1,322 @@
+ul { /*liste non ordonnée*/
+  list-style-type: none; /* Supprime les puces de liste */
+  margin: 0; /* Supprime les puces de liste */
+  padding: 0; /* Aucun remplissage */
+  overflow: hidden; /* Cache tout le contenu débordant */ 
+  background-color: #4e4e4e; /* Couleur de fond */ 
+  display: flex; /* Affiche les éléments en tant que flexbox */
+  justify-content: center; /* Centrer le contenu horizontalement */ 
+  width: 100%;/* Largeur à 100% */ 
+} 
+ 
+li {  /*élément de liste*/
+  float: none; /* Ne pas flotter les éléments */ 
+  border: 1px solid #333; /* Stylisation des éléments de liste avec bordure */ 
+} 
+ 
+li a {  /* Styles pour les liens (a) à l'intérieur des éléments de liste (li) */ 
+  display: block; /* Affiche l'élément en tant que bloc */
+  color: rgb(255, 255, 255);  /* Couleur du texte en blanc (RVB) */  
+  text-align: center;  /* Couleur du texte en blanc (RVB) */  
+  padding: 14px 16px; /* Espacement intérieur de 14 pixels en haut et en bas, 16 pixels à gauche et à droite */ 
+  text-decoration: none; /* Supprime la soulignement des liens */  
+  transition: background-color 0.3s; /* Animation de transition pour le survol */ 
+} 
+ 
+li a:hover { /*les styles spécifiés s'appliqueront lorsque le curseur de la souris survole l'élément ciblé.*/
+  background-color: #b3b2b2; /* Couleur de fond au survol */ 
+} 
+
+.ol {  /* Styles pour les éléments de classe "oz": les paragraphes */ 
+  font-size: 160%; /* Définit la taille de la police à 160% */
+  text-align: justify; /* Justifie le texte dans l'élément */ 
+  color: white;  /* Définit la couleur du texte en blanc */ 
+  margin-left: 340px; /* Ajoute une marge de 340px à gauche de l'élément */ 
+  margin-right: 340px; /* Ajoute une marge de 340px à droite de l'élément */
+} 
+
+.oz { /* Styles pour les éléments de classe "oz": titres des images */ 
+  color:white;
+} 
+.h1texte { 
+  text-align: center; /* Centre le texte dans l'élément */ 
+  background-color: rgb(168, 157, 157); /* Définit la couleur d'arrière-plan en RVB */ 
+  font-size: 50px; /* Définit la taille de la police à 50px */
+} 
+.imgStyle { 
+  display: block; /* Affiche l'image en tant que bloc */ 
+  margin-left: auto; /* Centre l'image horizontalement en laissant la marge gauche automatique */
+  margin-right: auto; /* Centre l'image horizontalement en laissant la marge droite automatique */ 
+} 
+.video-container {  /* Styles pour la classe "video-container" qui contient une vidéo */ 
+  margin-top: 20px; /* Espace vide de 20 pixels en haut */ 
+  margin-bottom: 20px; /* Espace vide de 20 pixels en bas */ 
+    display: flex; /* Affiche les éléments en tant que flexbox */
+    justify-content: center; /* Centrer le contenu horizontalement */ 
+}
+.video-container iframe { /* Styles pour la classe "video-container" qui contient une vidéo */ 
+    margin: 0 auto; /* Centre l'élément horizontalement en utilisant une marge automatique pour les côtés */ 
+} 
+
+
+.container { /* Définit la classe "container" avec les propriétés suivantes */
+  display: flex;  /* Utilise un modèle de boîte flexible */ 
+  justify-content: center; /* Centre les éléments horizontalement */ 
+  align-items: center; /* Centre les éléments verticalement */ 
+  flex-wrap:wrap; /* Permet aux éléments de passer à la ligne si nécessaire */ 
+  background-color: #494242; /* Couleur de fond du conteneur */
+  padding: 10px;  /* Ajoute un espace intérieur de 10px au conteneur */ 
+}
+.image-container { /* Styles pour les conteneurs d'images */ 
+  display: flex;  /* Utilise un modèle de boîte flexible */ 
+  justify-content: center; /* Centrer horizontalement */
+  align-items: center; /* Centrer verticalement */
+}
+
+.image-container img { /* Styles pour les images à l'intérieur de la classe "image-container" */ 
+  max-width: 50%; /* Pour limiter la largeur des images à 50% */
+  max-height: 50%; /* Pour limiter la hauteur des images à 50% */
+}
+
+.rectangle {   /* Styles pour les éléments de classe "rectangle" */ 
+  background-color: #3a3d3f;  /* Couleur de fond gris foncé */ 
+  color: #fff; /* Couleur du texte blanc */
+  padding: 20px;  /* Ajoute un espace intérieur de 20px */ 
+  border-radius: 5px; /* Ajoute des coins arrondis de 5px */
+  text-align: center;  /* Centre le texte horizontalement */ 
+  margin: 0 auto; /* Centre le rectangle horizontalement */
+} 
+ 
+h1 {  /* Styles pour les balises h1 */ 
+  margin: 0;   /* Supprime les marges par défaut de la balise h1 */ 
+} 
+
+div {  /* Styles pour les balises div */ 
+  margin: auto;  /* Centre le div horizontalement */ 
+  width: 50%;  /* Définit la largeur du div à 50% de son conteneur */ 
+} 
+.center {  /* Styles pour les éléments avec la classe "center" */
+  display: flex;  /* Utilise un modèle de boîte flexible */
+  justify-content: center;  /* Centre les éléments horizontalement */ 
+  align-items: center;  /* Centre les éléments verticalement */ 
+ 
+} 
+
+.imgbuttonmail { /* Styles pour le button email */
+  display: block;  /* Affiche l'élément comme un bloc */
+  margin-right: auto ;  /* Marge à droite automatique pour centrer l'élément horizontalement */
+  margin-left: auto;  /* Marge à gauche automatique pour centrer l'élément horizontalement */
+  width:50px ;  /* Largeur de l'élément de 50 pixels */
+}
+
+audio { /* Styles pour les balises audio */ 
+  width: 50%;  /* Définit la largeur de l'élément audio à 50% de son conteneur */
+} 
+
+footer {  /* Styles pour la section pied de page de la page web */ 
+  background-color: #333; /* Couleur de fond gris foncé pour le pied de page */
+  color: #fff; /* Couleur du texte blanc */ 
+  text-align: center; /* Alignement du texte au centre */ 
+  padding: 10px 0; /* Remplissage de 10 pixels en haut et en bas, 0 sur les côtés */ 
+} 
+
+.button-link { /* Styles pour les liens de type bouton */ 
+  display: inline-block; /* Permet de définir une largeur et une hauteur */ 
+  margin-right: 20px; /* Marge à droite de 20 pixels */ 
+  float: right; }  /* Aligne l'élément à droite du conteneur */ 
+ 
+ 
+.button-link img {  /* style pour les images à l'intérieur des liens de type bouton */ 
+  pointer-events: none; /* Désactive les événements de pointage sur l'image pour permettre les clics sur le lien */ 
+} 
+
+
+.titreimg { /* style pour les titre des images */ 
+font-size:160%;  /* Taille de police à 160% de la taille par défaut */ 
+text-align: center ; /* Alignement du texte au centre */ 
+color: white; /* Couleur du texte blanc */ 
+}
+
+ /* Large desktop */
+@media (min-width: 1200px) { 
+  body { 
+    background-image: url('../images/6223732.jpg'); 
+    background-size: cover; /* Ajuster la taille de l'image pour couvrir toute la zone */ 
+    background-position: center; /* Centrer l'image */ 
+    background-repeat: no-repeat; /* Ne pas répéter l'image */ 
+    background-attachment: fixed; /* Fixer l'image par rapport à la fenêtre du navigateur */
+  } 
+}
+
+
+/* Styles spécifiques pour la page "À propos" */ 
+
+.about-section {  font-family: Arial, sans-serif;  color: #ffffff;  text-align: justify;  margin-left: 500px;margin-right: 500px; }   /* Styles pour la section globale "À propos" */ 
+
+.about-section header { background-color: #333;  color: #fff; text-align: center;  padding: 20px 0; }  /* Styles pour l'en-tête de la section "À propos" */ 
+
+.about-section main {  max-width: 800px;  margin: 20px auto; padding: 20px; } /* Styles pour l'en-tête de la section "À propos" */ 
+
+.about-section section {   margin-bottom: 20px; border-bottom: 1px solid #e0e0e0; }   /* Styles pour chaque section individuelle de la section "À propos" */
+
+.about-section h1, .about-section h2 {  color: #fcfcfc;  text-align: center; }  /* Styles pour les titres de niveau 1 et de niveau 2 de la section "À propos" */ 
+
+
+
+/* Styles spécifiques pour la page "Contacts" */  
+
+.contacts body {  font-family: Arial, sans-serif; margin: 0;  padding: 0;  background-color: #fffdfd; }   /* Styles pour le corps de la page "Contacts" */ 
+
+.contacts {  max-width: 800px; margin: 0 auto;  padding: 20px;  background-color: #6e5151; }   /* Styles pour la section "Contacts" */ 
+
+.contacts h1 {   text-align: center; }  /* Styles pour le titre h1 de la section "Contacts" */ 
+
+.contacts form {  margin-top: 20px; }   /* Styles pour le formulaire de la section "Contacts" */ 
+
+.contacts input, .contacts textarea {  width: 100%;  padding: 8px;  margin: 5px 0;  box-sizing: border-box; }  /* Styles pour les champs de saisie et les zones de texte de la section "Contacts" */ 
+
+.contacts input[type="submit"] {  background-color: #393d39;  color: rgb(241, 197, 197); border: none;  cursor: pointer; }   /* Styles pour les champs de saisie et les zones de texte de la section "Contacts" */ 
+
+.contacts .highlight-email {  color: #ffffff; }  /* Styles pour la classe "highlight-email" de la section "Contacts" */ 
+
+
+
+/* Styles spécifiques pour la page "Algerie" */  
+
+.algeria { display: flex;  justify-content: space-between;  background-color: #333;  padding: 10px; flex-wrap: wrap; } 
+
+.button {  background-color: #222;  color: #fff;  padding: 10px 20px;  border: none;  border-radius: 5px;  text-align: center;  text-decoration: none;  margin-right: 10px;  transition: background-color 0.3s, color 0.3s;  display: flex; flex-direction: column;   align-items: center; }  /* Styles pour la classe "button" */   
+
+.button img {  width: 100px;  margin-top: 10px; }  /* Styles pour les images à l'intérieur de la classe "button" */ 
+
+.button:hover {  background-color: #555; } /* Styles au survol de la classe "button" */ 
+
+
+
+/* Styles spécifiques pour la page "Plan de site" */  
+
+
+.plansite  { display: flex;  justify-content: center; align-items: flex-start;  margin: 0 auto; background-color: #533d3d; flex-direction: column; } /* Définition des styles pour la classe .plansite */ 
+
+.plansite { text-align: center; padding-top: 20px; display: block;  width: 30%; } /* Définition des styles pour la classe .plansite */ 
+
+.menu-item1 { font-size: 2.2em;  margin: 10px 0; margin: 0 auto; margin-bottom: 20px; border: 2px; } /* Styles pour la classe .menu-item1 */ 
+
+.menu-item1 a { text-decoration: none; color: #ffffff; } /* Styles pour les liens dans la classe .menu-item1 */ 
+
+.menu-item1 a:hover { color: #00ff00; } /* Styles pour les liens survolés dans la classe .menu-item1 */ 
+
+
+
+/* Styles spécifiques pour la page "site d'interets" */  
+
+.sites body { /* Définition des styles pour le corps de la page avec la classe .sites */ 
+  font-family: Arial, sans-serif; margin: 0; padding: 0; }
+
+.sites header { /* Définition des styles pour l'en-tête de la page avec la classe .sites */
+  background-color: #333; color: white; text-align: center; padding: 10px 0; }
+
+.sites {  /* Définition des styles pour la classe .sites */
+  display: flex; flex-direction: column;  align-items: center; }
+
+.site { /* Définition des styles pour la classe .site */ 
+  width: 100%; margin: 10px; padding: 10px; border: 1px solid #ddd; border-radius: 5px; text-align: center; }
+
+.site img { /* Définition des styles pour les images à l'intérieur de la classe .site */ 
+  max-width: 100%; height: auto; border-radius: 5px; }
+
+.site h2 { /* Définition des styles pour les titres h2 à l'intérieur de la classe .site */ 
+  color: #e4dcdc; margin-top: 10px; }
+
+  
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1199px) { 
+  body { 
+    background-image: url('../images/56_Abstract_Background_3840x2160px.jpg'); 
+    background-size: cover; /* Ajuster la taille de l'image pour couvrir toute la zone */ 
+    background-position: center; /* Centrer l'image */ 
+    background-repeat: no-repeat; /* Ne pas répéter l'image */ 
+    background-attachment: fixed; /* Fixer l'image par rapport à la fenêtre du navigateur */
+  } 
+  ul {
+    flex-wrap: wrap; /* Permettre le retour à la ligne des éléments flexbox */
+  }
+  .ol { 
+    font-size: 160%; /* Définit la taille de la police à 160% */
+    text-align: justify; /* Justifie le texte dans l'élément */ 
+    color: white;  /* Définit la couleur du texte en blanc */ 
+    margin-left:100px; /* Ajoute une marge de 340px à gauche de l'élément */ 
+    margin-right: 100px; /* Ajoute une marge de 340px à droite de l'élément */
+  } 
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+  body { 
+    background-image: url('../images/32_Abstract_Background_2160x3840px.jpg'); 
+    background-size: cover; /* Ajuster la taille de l'image pour couvrir toute la zone */ 
+    background-position: center; /* Centrer l'image */ 
+    background-repeat: no-repeat; /* Ne pas répéter l'image */ 
+    background-attachment: fixed; /* Fixer l'image par rapport à la fenêtre du navigateur */
+  } 
+  ul {
+    flex-wrap: wrap; /* Permettre le retour à la ligne des éléments flexbox */
+  }
+  .ol { 
+    font-size: 160%; /* Définit la taille de la police à 160% */
+    text-align: justify; /* Justifie le texte dans l'élément */ 
+    color: white;  /* Définit la couleur du texte en blanc */ 
+    margin-left:40px; /* Ajoute une marge de 340px à gauche de l'élément */ 
+    margin-right: 40px; /* Ajoute une marge de 340px à droite de l'élément */
+  } 
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+  body { 
+    background-image: url('../images/88_Abstract_Background_2160x3840px.jpg'); 
+    background-size: cover; /* Ajuster la taille de l'image pour couvrir toute la zone */ 
+    background-position: center; /* Centrer l'image */ 
+    background-repeat: no-repeat; /* Ne pas répéter l'image */ 
+    background-attachment: fixed; /* Fixer l'image par rapport à la fenêtre du navigateur */
+  } 
+
+  ul {
+    flex-wrap: wrap; /* Permettre le retour à la ligne des éléments flexbox */
+  }
+
+  .ol { 
+    font-size: 160%; /* Définit la taille de la police à 160% */
+    text-align: justify; /* Justifie le texte dans l'élément */ 
+    color: white;  /* Définit la couleur du texte en blanc */ 
+    margin-left:20px; /* Ajoute une marge de 340px à gauche de l'élément */ 
+    margin-right: 20px; /* Ajoute une marge de 340px à droite de l'élément */
+  } 
+}
+
+
+div /* Styles pour les éléments div */ 
+{ 
+ 
+  margin: auto; /* Centre l'élément horizontalement en utilisant une marge automatique pour les côtés */ 
+  width:50% /* Définit la largeur de l'élément à 50% de la largeur de son conteneur */
+}
+
+
+h2 /* Styles pour les éléments h2 */ 
+{ 
+color:red; font-size:40px /* Définit la couleur du texte en rouge */
+}
+
+
+.maclasspink{  /* Styles pour les éléments avec la classe 'maclasspink' */ 
+  color: black; /* Définit la couleur du texte en noir */ 
+  text-align:  center; /* Centre le texte horizontalement */ 
+}
+
+
+.classpink {  /* Styles pour les éléments avec la classe 'classpink' */ 
+  color:pink; /* Définit la couleur du texte en rose */ 
+  text-align:  center; /* Centre le texte horizontalement */ 
+}
